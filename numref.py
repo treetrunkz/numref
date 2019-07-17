@@ -12,25 +12,27 @@ while count < 4:
 print('Congrats! you have done it!')
 print(multi3_list)
 
-'''
+
 enclist=[]
 word = input('Enter the word you want to encrypt now.')
 enclist.append(word)
-g
-'''
-'''
+
+
 def encrypt(word):
   return word[1:]+word[0]
 
 text = input('enter a word: ')
 print(text,"encrypted is",encrypt(text))
-'''
-'''
+
+
 def encrypt(text):
     return text[1:]+text[0]
 
 word = input("Enter a word:")
 print(word,"encrypted is",encrypt(word))
+
+
+
 '''
 file_in = open('elevations.csv')
 contents = file_in.readlines()
@@ -52,3 +54,4 @@ for item in countents:
     scount+=1
   if height > max_height:
     max_height = height
+'''
